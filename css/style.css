@@ -14,10 +14,6 @@ body {
   font-weight: bold;
 }
 
-.hidden {
-  display: none;
-}
-
 #header,
 #breadcrumb,
 main,
@@ -1061,12 +1057,24 @@ footer li:hover {
     background-size: cover;
   }
 
-  #explore h2, #newsletter h2 {
+  #explore h2,
+  #newsletter h2 {
     font-size: 36px;
   }
 
   #explore {
     margin-bottom: 30px;
+    width: 100%;
+    max-width: 380px;
+    min-height: fit-content;
+  }
+
+  #explore-tags li {
+    padding: 6px 14px;
+  }
+
+  #newsletter {
+    max-width: 380px;
   }
 
   #ads {
